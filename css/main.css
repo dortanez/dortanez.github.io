@@ -1,0 +1,58 @@
+body {
+	background-color: #F3F5F2;
+	font-family: 'Courier New';
+}
+/*NAV BAR****************************************/
+nav {
+	background-color: #3A3A3A;
+}
+#name-logo {
+	font-family: 'Abel', sans-serif;
+	font-size: 3em;
+	font-weight: 800;
+	color: #3FA43A;
+
+}
+
+#nav-list {
+	padding: 0;
+}
+
+#nav-list li {
+	display: inline-block;
+	padding: 0 5%;
+}
+
+#nav-list li a {
+	text-decoration: none;
+	color: #3FA43A;
+	font-family: 'Abel', sans-serif;
+	font-weight: 600;
+}
+
+
+/*ABOUT ME TAB************************************/
+#about-me {
+	margin: 5% 0;
+}
+
+#about-me img {
+	border: solid black;
+}
+
+#about-me h1 {
+	font-weight: 800;
+}
+
+#about-me p {
+	font-size: 1em;
+	text-align: left;
+	padding-top: 2%;
+	font-weight: 800;
+}
+
+#about-me a {
+	font-size: 2em;
+	color: #3FA43A;
+	text-align: left;
+}

@@ -1,295 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Danisa Ortanez</title>
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- TAB NAME -->
-    <title>Danisa Ortanez</title>
-    <!-- TAB ICON -->
-    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
-    <!-- BOOTSTRAP FRAMEWORK -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <!-- ICON FONTS -->
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <!-- ANIMATION -->
-    <link rel="stylesheet" href="assets/css/aos.css">
-    <!-- TESTIMONIAL SLIDER PLUGIN -->
-    <link rel="stylesheet" href="assets/css/flexslider.css">
-    <!-- IMAGES SHOW PLUGIN -->
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <!-- MAIN STYLE -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!-- RESPONSIVES -->
-    <link rel="stylesheet" href="assets/css/style-responsives.css">
-    <!-- FONT FAMILY -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,500i,700" rel="stylesheet">
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-</head>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 
-<body>
+		 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+ 		 crossorigin="anonymous">
 
-    <!-- START PRELOADER -->
-    <div id="preloader">
-        <div id="status">
-            <div class="spinner">
-                <div class="double-bounce1"></div>
-                <div class="double-bounce2"></div>
-            </div>
-            <p>AYE.</p>
-        </div>
-    </div>
-    <!-- END PRELOADER -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
-    <!-- START NAVIGATION -->
-    <div id="navigation">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="logo">
-                        <a href="index.html">Danisa Ortanez</a>
-                    </div>
-                </div>
-                <div class="col-sm-9">
-                    <div class="navigation-menu">
-                        <div class="navbar">
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                            </div>
-                            <div class="navbar-collapse collapse">
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li><a class="smoth-scroll line active" href="#home">Home</a></li>
-                                    <li><a class="smoth-scroll line" href="#about">About</a></li>
-                                    <li><a class="smoth-scroll line" href="#portfolio">Portfolio</a></li>
-                                    <li><a class="smoth-scroll line" href="#contact">Contact</a></li>
-                                </ul>
-                                <span></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END NAVIGATION -->
+		<link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 
-    <!-- START HOME -->
-    <div id="home" class="home-background overlay" style="background-image: url('assets/img/home-bg.jpg')" data-stellar-background-ratio="0.6">
-        <div id="particles-js">
-            <div class="container">
-                <div class="row">
-                    <div class="home-text">
-                        <!-- Home Text Descriptions (Change Typing Text in JS/Main.js) -->
-                        <h1 data-aos="zoom-in" data-aos-delay="1000">My name is Danisa, <span class="typing"></span></h1>
-                        <p data-aos="fade-up" data-aos-delay="1000"><a class="smoth-scroll btn btn-light" href="#about">Lets, Discover me</a></p>
-                    </div>
-                    <a class="smoth-scroll" href="#about"><i class="fa fa-angle-down arrow"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- END HOME -->
+		<link rel="stylesheet" href="css/main.css">
 
-    <!-- START ABOUT -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div data-aos="fade-up" data-aos-duration="1000">
-                    <div class="col-md-5 col-sm-6 about-img">
-                        <img src="assets/img/about-img.jpg" height="500" class="img-responsive" alt="John Doe" />
-                    </div>
-                    <div class="col-md-7 col-sm-6">
-                        <h2>Hello I'm Danisa Ortanez</h2>
-                        <hr class="line-title-left">
-                        <h4>Web Developer</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper, lectus in lacinia aliquam, velit
-                           erat rutrum mauris, et interdum turpis purus sed arcu. Maecenas ornare augue vitae dui eleifend pharetra.
-                           Aliquam posuere turpis at varius fringilla. Vestibulum ut ipsum dignissim sem congue accumsan. Vestibulum
-                           hendrerit mi orci, eu imperdiet nisi interdum nec. Donec nec ex blandit, imperdiet velit dictum.
-                        </p>
-                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent ut nulla
-                           est. Sed dapibus blandit mi ut facilisis. Praesent vel tellus tellus. Etiam ultrices orci velit, in consequat nulla
-                           ultrices non. Etiam finibus aliquet ipsum, id varius massa sollicitudin id. Quisque vulputate eu lacus at mollis.
-                           Vivamus suscipit volutpat dolor ac ornare.
-                        </p>
-                        <ul class="social-icons">
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="#"><i class="fa fa-github"></i></a></li>
-                            <li><a href="#"><i class="fa fa-codepen"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END ABOUT -->
 
-    <!-- START PORTFOLIO -->
-    <section id="portfolio">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col-4">
-                    <div class="card">
-                        <img src="assets/img/portfolio/clock.png" class="card-img-top" alt="clockPic">
-                        <div class="card-body">
-                            <h5 class="card-title">Alarm Clock</h5>
-                            <p class="card-text">javascript</p>
-                            <a class="btn btn-outline" href="clockApp/clock.html" target="_blank">See More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card">
-                        <img src="assets/img/portfolio/zodiac.png" class="card-img-top" alt="zodiac">
-                        <div class="card-body">
-                            <h5 class="card-title">Zodiac Sign</h5>
-                            <p class="card-text">javascript</p>
-                            <a class="btn btn-outline" href="zodiacSign/zodiac.html" target="_blank">See More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END PORTFOLIO -->
+	</head>
+	<body>
 
-    <!-- START HIRE -->
-    <section id="hire" style="background-image: url('assets/img/hire.jpg');">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h2>I am Available for Freelance</h2>
-                    <p><a href="#contact" class="smoth-scroll btn btn-light-outline with-arrow">Hire Me<i class="fa fa-envelope-o"></i></a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END HIRE -->
+	<div class="container" id="portfolio">
+		<nav class="text-center my-2 py-1 text-white">
+			<p id="name-logo">Danisa Ortanez</p>
+			<ul id="nav-list">
+				<li><router-link to="/about">About Me</router-link></li>
+				<li><router-link to="/projects">Projects</router-link></li>
+				<li><router-link to="/contact">Contact</router-link></li>
+			</ul>
+		</nav>
 
-    <!-- START CONTACT -->
-    <section id="contact" class="text-center">
-        <div class="container">
-            <div class="row">
-                <div data-aos="fade-up" data-aos-duration="3000">
-                    <div class="col-md-12">
-                        <h2>Contact</h2>
-                        <hr class="line-title-center">
-                    </div>
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="col-md-4 col-sm-4">
-                            <i class="fa fa-envelope-o fa-2x"></i>
-                            <p>Danisa.Ortanez@gmail.com</p>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <i class="fa fa-map-marker fa-2x"></i>
-                            <p>Bay Area, CA</p>
-                        </div>
-                        <div class="col-md-4 col-sm-4">
-                            <i class="fa fa-phone fa-2x"></i>
-                            <p> 415-652-0310</p>
-                        </div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="col-md-8 col-md-offset-2">
-                        <br>
-                        <h5>Leave me a message</h5>
-                        <form id="contact-form" name="contact" method="post" novalidate="novalidate">
-                            <div class="row">
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" name="name" id="name" class="form-control" placeholder="Name">
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="form-group">
-                                        <input type="email" name="email" id="email" class="form-control" placeholder="Email">
-                                        <p class="help-block text-danger"></p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <button id="submit" type="submit" name="submit" class="btn-send btn-send-dark">Send Message</button>
-                            <div id="success">
-                                <p class="green textcenter">Your message was sent, Thank you.</p>
-                            </div>
-                            <div id="error">
-                                <p>Something maybe wrong please try again</p>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END CONTACT -->
-
-    <!-- START FOOTER -->
-    <footer id="footer">
-        <div class="container">
-            <div class="col-md-8 col-md-offset-2 text-center">
-                <ul class="social-icons-footer">
-                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fa fa-github"></i></a></li>
-                    <li><a href="#"><i class="fa fa-codepen"></i></a></li>
-                </ul>
-                <p>Copyright &copy; 2017 Aye.</p>
-            </div>
-        </div>
-    </footer>
-    <!-- END FOOTER. -->
-
-    <!-- START SCROOL ON TOP BUTTON -->
-    <a href="#" class="scroll-to-top"><i class="fa fa-angle-up"></i></a>
-    <!-- END SCROLL ON TOP BUTTON -->
+		<router-view>
+			
+		</router-view>
+		
 
 
 
-    <!-- START PLUGIN JAVASCRIPT -->
-    <!-- Jquery Js-->
-    <script src="assets/js/jquery.js"></script>
-    <!-- Bootstrap Js -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- AOS Js -->
-    <script src="assets/js/aos.js"></script>
-    <!-- Particles Js -->
-    <script src="assets/js/particles.min.js"></script>
-    <!-- App Js -->
-    <script src="assets/js/app.js"></script>
-    <!-- flexslider Js -->
-    <script src="assets/js/jquery.flexslider-min.js"></script>
-    <!-- Mixitup Js -->
-    <script src="assets/js/jquery.mixitup.js"></script>
-    <!-- Magnific Popup Js -->
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <!-- Magnific Popup Options Js -->
-    <script src="assets/js/magnific-popup-options.js"></script>
-    <!-- Jquery Form Js -->
-    <script src="assets/js/jquery.form.js"></script>
-    <!-- Jquery Validate Js -->
-    <script src="assets/js/jquery.validate.min.js"></script>
-    <!-- Stellar Js -->
-    <script src="assets/js/jquery.stellar.min.js"></script>
-    <!-- Typed Js -->
-    <script src="assets/js/typed.js"></script>
-    <!-- Main Js -->
-    <script src="assets/js/main.js"></script>
-    <!-- END PLUGIN JAVASCRIPT -->
 
-</body>
 
+		
+
+
+<!-- SCRIPTS -->
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+		<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</body>
 </html>
+
+
+
+
+
+
+
+
