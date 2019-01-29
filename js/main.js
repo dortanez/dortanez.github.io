@@ -12,7 +12,7 @@ const about = {
 
                 <h1>About Me</h1>
 
-                <p class="px-sm-2">Highly motivated graduate from a software development boot camp excited to start my new career in the technology field. <br><br> With 4 years of accounting experience, i'm able appreciate the little things and strive for accuracy. </p>
+                <p class="px-sm-2">Highly motivated graduate from a software development boot camp excited to start my new career in the technology field. <br><br> With 4 years of accounting experience, i'm able to appreciate the little things and strive for accuracy. </p>
 
                     <a href="https://www.linkedin.com/in/danisa-ortanez-27627963/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     <a href="https://github.com/dortanez" target="_blank"><i class="fab fa-github-square"></i></a>
@@ -26,7 +26,7 @@ const projects = {
         <div class="text-center">
         <h1>Projects</h1>
             <div class="row">
-                <div class="col-sm-12 col-md-4 my-5">
+                <div class="col-sm-12 col-md-4 my-3">
                     <div class="card">
                         <img src="img/clock.png" class="card-img-top" alt="clockPic">
                         <div class="card-body">
@@ -35,7 +35,7 @@ const projects = {
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4 my-5">
+                <div class="col-sm-12 col-md-4 my-3">
                     <div class="card">
                         <img src="img/zodiac.png" class="card-img-top" alt="zodiac">
                         <div class="card-body">
@@ -44,7 +44,7 @@ const projects = {
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4 my-5">
+                <div class="col-sm-12 col-md-4 my-3">
                     <div class="card">
                         <img src="img/todo.png" class="card-img-top" alt="todo-list Pic">
                         <div class="card-body">
@@ -60,7 +60,38 @@ const projects = {
 
 
 const contact = {
-	template: ``
+	template: `<section id="contact">
+        <div class="container">
+        <div class="row text-center">
+            <h1 class="m-auto">Contact Me</h1>
+            <form class="border border-dark p-5 m-auto col-md-6 col-12 text-left">
+                <div class="form-group">
+                    <label>Your Name</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Subject</label>
+                    <input type="text" class="form-control">
+                </div>
+
+                <div class="form-group">
+                <label>Message</label>
+                <textarea type="text" class="form-control" required></textarea>
+                </div>
+                <button type="button">Send Message</button>
+
+            </form>
+        </div>
+        </div>
+        </section>`
 }
 
 const router = new VueRouter({
