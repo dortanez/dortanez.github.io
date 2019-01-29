@@ -3,7 +3,7 @@ const about = {
 
         <div class="row text-center">
 
-            <div class=" col-sm-12 col-md-4 offset-lg-1">
+            <div class=" col-sm-12 col-md-4 offset-lg-1 mb-4">
 
                 <img src="img/Danisa.png">
 
@@ -18,19 +18,15 @@ const about = {
                     <a href="https://github.com/dortanez" target="_blank"><i class="fab fa-github-square"></i></a>
             </div>
         </div>
-        </section>
-
-
-
-
-    `
+        </section>`
 }
 
 const projects = {
 	template: `<section id="projects">
         <div class="text-center">
+        <h1>Projects</h1>
             <div class="row">
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-4 my-5">
                     <div class="card">
                         <img src="img/clock.png" class="card-img-top" alt="clockPic">
                         <div class="card-body">
@@ -39,7 +35,7 @@ const projects = {
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-4 my-5">
                     <div class="card">
                         <img src="img/zodiac.png" class="card-img-top" alt="zodiac">
                         <div class="card-body">
@@ -48,7 +44,7 @@ const projects = {
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-4 my-5">
                     <div class="card">
                         <img src="img/todo.png" class="card-img-top" alt="todo-list Pic">
                         <div class="card-body">
