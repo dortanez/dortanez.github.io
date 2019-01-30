@@ -1,20 +1,12 @@
 const about = {
     template: `<section id="about-me">
-
-        <div class="row text-center">
-
-            <div class=" col-sm-12 col-md-4 offset-lg-1 mb-4">
-
+        <div class="row text-center bg-white rounded">
+            <div class="col-md-4 offset-lg-1 my-4">
                 <img src="img/Danisa.png">
-
             </div>
-            <div class=" col-sm-12 offset-md-2 offset-lg-0 col-md-6 my-sm-4 my-md-0">
-
+            <div class="offset-md-2 offset-lg-0 col-md-6 my-md-4 ">
                 <h1>About Me</h1>
-
-                <p class="px-sm-2">Highly motivated graduate from a software development boot camp excited to start my new career in the technology field. <br><br> With 4 years of accounting experience, i'm able to appreciate the little things and strive for accuracy. </p>
-
-                    
+                <p class="px-2">Highly motivated graduate from a software development boot camp excited to start my new career in the technology field. <br><br> With 4 years of accounting experience, i'm able to appreciate the little things and strive for accuracy. </p>    
             </div>
         </div>
         </section>`
@@ -60,33 +52,33 @@ const projects = {
 
 const contact = {
 	template: `<section id="contact">
-        <div class="row bg-white">
+        <div class="row bg-white rounded">
             <div class="col-lg-8">
                 <form class="border border-white rounded bg-white px-5 pb-5 pt-4 text-left">
-                <h1 class="text-center mb-3">Contact Me</h1>
+                <h1 class="text-center mb-3">CONTACT ME</h1>
                     <div class="row">
                         <div class="form-group col">
-                            <label>Name</label>
+                            <label>Name:</label>
                             <input type="text" class="form-control" required>
                         </div>
                         <div class="form-group col">
-                            <label>Email</label>
+                            <label>Email:</label>
                             <input type="text" class="form-control">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label>Message</label>
+                        <label>Message:</label>
                         <textarea rows="5" type="text" class="form-control" required></textarea>
                     </div>
                     <div class="form-group">
-                        <input type="file" class=" rounded form-control-file">
+                        <input type="file" class="rounded form-control-file p-1">
                      </div>
-                    <button class="rounded mt-3 p-3" type="button">SEND MESSAGE</button>
+                    <button class="rounded mt-3 p-2" type="button">SEND MESSAGE</button>
                     
                 </form>
                 </div>
                 <div class="col-lg-4">
-                <div id="info" class="p-5 mt-2">
+                <div id="info" class="p-5 my-3 rounded">
                     <div class="contacts">
                         <h5>EMAIL</h5>
                         <p>danisa.ortanez@gmail.com</p>

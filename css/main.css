@@ -8,7 +8,6 @@ body {
 	font-size: 2em;
 	font-weight: 800;
 	color: #3FA43A;
-
 }
 
 
@@ -31,6 +30,7 @@ body {
 
 #about-me img {
 	border: solid black;
+	border-radius: 5px;
 }
 
 #about-me h1 {
@@ -87,6 +87,7 @@ body {
 	font-weight: bold;
 	border: solid #3FA43A;
 	color: white;
+	box-shadow: 0 2px 5px grey;
 }
 
 #contact h5 {
@@ -96,10 +97,12 @@ body {
 
 #contact input {
 	background-color: #E0E1DB;
+	font-weight: bold;
 }
 
 #contact textarea {
 	background-color: #E0E1DB;
+	font-weight: bold;
 }
 
 #contact .contacts {
@@ -113,4 +116,10 @@ body {
 
 #contact #info {
 	background-color: #FAFAFA;
+	font-weight: bold;
+}
+
+#contact #info i {
+	 text-shadow: 0 2px 5px grey;
+	 margin-right: 8%;
 }
