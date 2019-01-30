@@ -20,25 +20,30 @@
 	</head>
 	<body>
 
-	<div class="container" id="portfolio">
-		<nav class="text-center my-2 py-1 text-white">
-			<p id="name-logo">Danisa Ortanez</p>
-			<ul id="nav-list">
-				<li><router-link to="/about">About Me</router-link></li>
-				<li><router-link to="/projects">Projects</router-link></li>
-				<li><router-link to="/contact">Contact</router-link></li>
-			</ul>
+	<div id="portfolio">
+		<nav class="navbar navbar-expand-lg navbar-light bg-white">
+			<div class="container">
+	  			<h1 class="name-logo">Danisa Ortanez</h1>
+	  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	    			<span class="navbar-toggler-icon"></span>
+	  			</button>
+	  			<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav" id="nav-list">
+						<li class="nav-item active"><router-link to="/about">About Me</router-link></li>
+						<li class="nav-item"><router-link to="/projects">Projects</router-link></li>
+						<li class="nav-item"><router-link to="/contact">Contact</router-link></li>
+					</ul>
+				</div>
+			</div>
 		</nav>
-
+	
+		<div class="container">
 		<router-view>
 			
 		</router-view>
-		
+		</div>
 
-
-
-
-
+	</div>
 		
 
 

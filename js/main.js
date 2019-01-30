@@ -14,8 +14,7 @@ const about = {
 
                 <p class="px-sm-2">Highly motivated graduate from a software development boot camp excited to start my new career in the technology field. <br><br> With 4 years of accounting experience, i'm able to appreciate the little things and strive for accuracy. </p>
 
-                    <a href="https://www.linkedin.com/in/danisa-ortanez-27627963/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/dortanez" target="_blank"><i class="fab fa-github-square"></i></a>
+                    
             </div>
         </div>
         </section>`
@@ -61,36 +60,53 @@ const projects = {
 
 const contact = {
 	template: `<section id="contact">
-        <div class="container">
-        <div class="row text-center">
-            <h1 class="m-auto">Contact Me</h1>
-            <form class="border border-dark p-5 m-auto col-md-6 col-12 text-left">
-                <div class="form-group">
-                    <label>Your Name</label>
-                    <input type="text" class="form-control" required>
+        <div class="row bg-white">
+            <div class="col-lg-8">
+                <form class="border border-white rounded bg-white px-5 pb-5 pt-4 text-left">
+                <h1 class="text-center mb-3">Contact Me</h1>
+                    <div class="row">
+                        <div class="form-group col">
+                            <label>Name</label>
+                            <input type="text" class="form-control" required>
+                        </div>
+                        <div class="form-group col">
+                            <label>Email</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea rows="5" type="text" class="form-control" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="file" class=" rounded form-control-file">
+                     </div>
+                    <button class="rounded mt-3 p-3" type="button">SEND MESSAGE</button>
+                    
+                </form>
                 </div>
-                <div class="form-group">
-                    <label>Email</label>
-                    <input type="text" class="form-control">
+                <div class="col-lg-4">
+                <div id="info" class="p-5 mt-2">
+                    <div class="contacts">
+                        <h5>EMAIL</h5>
+                        <p>danisa.ortanez@gmail.com</p>
+                    </div>
+                    <div class="contacts">
+                        <h5>TELEPHONE</h5>
+                        <p>415-652-0310</p>
+                    </div>
+                    <div class="contacts">
+                        <h5>ADDRESS</h5>
+                        <p>34809 Starling Drive<br>
+                        Union City, CA 94587</p>
+                    </div>
+                    <div>
+                        <a href="https://www.linkedin.com/in/danisa-ortanez-27627963/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/dortanez" target="_blank"><i class="fab fa-github-square"></i></a>
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label>Phone</label>
-                    <input type="text" class="form-control">
-                </div>
-                <div class="form-group">
-                    <label>Subject</label>
-                    <input type="text" class="form-control">
-                </div>
-
-                <div class="form-group">
-                <label>Message</label>
-                <textarea type="text" class="form-control" required></textarea>
-                </div>
-                <button type="button">Send Message</button>
-
-            </form>
-        </div>
-        </div>
+            </div>
+            </div>
         </section>`
 }
 
