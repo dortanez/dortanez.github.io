@@ -45,6 +45,27 @@ body {
 }
 
 
+
+/*SKILLS TAB*************************************/
+#skills {
+	margin: 5% 0;
+}
+
+#skills .container {
+	width: 100%;
+	background-color: #F3F5F2;
+}
+
+#skills .skills {
+	text-align: right;
+	padding: 10px;
+}
+
+
+
+
+
+
 /*PROJECTS TAB***********************************/
 #projects {
 	margin: 7% 0;
@@ -65,7 +86,7 @@ body {
 
 #projects .card {
 	border: solid;
-	border-spacing: 100px;
+
 }
 
 

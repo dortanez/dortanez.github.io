@@ -9,7 +9,67 @@ const about = {
                 <p class="px-2">Highly motivated graduate from a software development boot camp excited to start my new career in the technology field. <br><br> With 4 years of accounting experience, i'm able to appreciate the little things and strive for accuracy. </p>    
             </div>
         </div>
+        </section>
+        <section id="skills">
+            <div class="row bg-white rounded">
+            <h1>Skills</h1>
+            </div>
         </section>`
+}
+
+const skills = {
+    template: `<section id="skills">
+        <div class="row bg-white rounded">
+            <h1 class="text-center col-12">Skills</h1>
+            <p class="col-3">HTML</p>
+            <div class="col-8 container">
+                <div class="skills html">
+                </div>
+            </div>
+            <p class="col-3">CSS</p>
+            <div class="col-8 container">
+                <div class="skills html">
+                </div>
+            </div>
+            <p class="col-3">Javascript</p>
+            <div class="col-8 container">
+                <div class="skills html">
+                </div>
+            </div>
+            <p class="col-3">HTML</p>
+            <div class="col-8 container">
+                <div class="skills html">
+                </div>
+            </div>
+            <p class="col-3">HTML</p>
+            <div class="col-8 container">
+                <div class="skills html">
+                </div>
+            </div>
+            <p class="col-3">HTML</p>
+            <div class="col-8 container">
+                <div class="skills html">
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+
+    `
+
 }
 
 const projects = {
@@ -57,11 +117,11 @@ const contact = {
                 <form class="border border-white rounded bg-white px-5 pb-5 pt-4 text-left">
                 <h1 class="text-center mb-3">CONTACT ME</h1>
                     <div class="row">
-                        <div class="form-group col">
+                        <div class="form-group col-md-6">
                             <label>Name:</label>
                             <input type="text" class="form-control" required>
                         </div>
-                        <div class="form-group col">
+                        <div class="form-group col-md-6">
                             <label>Email:</label>
                             <input type="text" class="form-control">
                         </div>
@@ -108,6 +168,10 @@ const router = new VueRouter({
 			path: "/about",
 			component: about
 		},
+        {
+            path: "/skills",
+            component: skills
+        },
 		{
 			path: "/projects",
 			component: projects
