@@ -17,60 +17,6 @@ const about = {
         </section>`
 }
 
-const skills = {
-    template: `<section id="skills">
-        <div class="row bg-white rounded">
-            <h1 class="text-center col-12">Skills</h1>
-            <p class="col-3">HTML</p>
-            <div class="col-8 container">
-                <div class="skills html">
-                </div>
-            </div>
-            <p class="col-3">CSS</p>
-            <div class="col-8 container">
-                <div class="skills html">
-                </div>
-            </div>
-            <p class="col-3">Javascript</p>
-            <div class="col-8 container">
-                <div class="skills html">
-                </div>
-            </div>
-            <p class="col-3">HTML</p>
-            <div class="col-8 container">
-                <div class="skills html">
-                </div>
-            </div>
-            <p class="col-3">HTML</p>
-            <div class="col-8 container">
-                <div class="skills html">
-                </div>
-            </div>
-            <p class="col-3">HTML</p>
-            <div class="col-8 container">
-                <div class="skills html">
-                </div>
-            </div>
-
-
-
-
-
-
-        </div>
-
-
-
-
-
-    </section>
-
-
-
-
-    `
-
-}
 
 const projects = {
 	template: `<section id="projects">
@@ -168,10 +114,6 @@ const router = new VueRouter({
 			path: "/about",
 			component: about
 		},
-        {
-            path: "/skills",
-            component: skills
-        },
 		{
 			path: "/projects",
 			component: projects
