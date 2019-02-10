@@ -25,6 +25,15 @@ const projects = {
             <div class="row">
                 <div class="col-sm-12 col-md-4 my-3">
                     <div class="card">
+                        <img src="img/book.png" class="card-img-top" alt="bookPic">
+                        <div class="card-body">
+                            <h5 class="card-title">Book Finder</h5>
+                            <a class="btn btn-outline" href="projects/clockApp/clock.html" target="_blank">See More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 my-3">
+                    <div class="card">
                         <img src="img/clock.png" class="card-img-top" alt="clockPic">
                         <div class="card-body">
                             <h5 class="card-title">Alarm Clock</h5>
