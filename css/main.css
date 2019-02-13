@@ -44,6 +44,17 @@ body {
 	font-weight: 800;
 }
 
+#about-me .square {
+	border: 2px solid #3FA43A;
+	font-weight: bold;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	line-height: 100px;
+	float: center;
+	margin: 2%;
+	font-size: 1.5em;
+}
 
 
 /*PROJECTS TAB***********************************/

@@ -5,15 +5,26 @@ const about = {
                 <img src="img/Danisa.png">
             </div>
             <div class="offset-md-2 offset-lg-0 col-md-6 my-md-4 ">
-                <h1>About Me</h1>
+                <h1>ABOUT ME</h1>
                 <p class="px-2">Highly motivated graduate from a software development boot camp excited to start my new career in the technology field. <br><br> With 4 years of accounting experience, i'm able to appreciate the little things and strive for accuracy. </p>    
             </div>
         </div>
-        </section>
-        <section id="skills">
-            <div class="row bg-white rounded">
-            <h1>Skills</h1>
+        <hr>
+          <div class="row text-center bg-white rounded">
+            <div class="my-4 ml-3 row px-4">
+               <div class="square">JavaScript</div>
+               <div class="square">HTML</div>
+               <div class="square">CSS</div>
+               <div class="square">BootStrap</div>
+               <div class="square">Vue.JS</div>
+               <div class="square">JQuery</div>
+               <div class="square">Microsoft Office</div>
+               <div class="square">SQL</div>
+               <div class="square">Responsive Design</div>
+               <div class="square">Github</div>
+               <div class="square">APIs</div>
             </div>
+        </div>
         </section>`
 }
 
@@ -21,7 +32,7 @@ const about = {
 const projects = {
 	template: `<section id="projects">
         <div class="text-center">
-        <h1>Projects</h1>
+        <h1>PROJECTS</h1>
             <div class="row">
                 <div class="col-sm-12 col-md-4 my-3">
                     <div class="card">
