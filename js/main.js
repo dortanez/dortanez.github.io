@@ -1,28 +1,44 @@
 const about = {
     template: `<section id="about-me">
-        <div class="row text-center bg-white rounded">
-            <div class="col-md-4 offset-lg-1 my-4">
+        <div class="row bg-white rounded">
+            <div class="col-md-4 offset-lg-1 my-4 text-center">
                 <img src="img/Danisa.png">
             </div>
-            <div class="offset-md-2 offset-lg-0 col-md-6 my-md-4 ">
-                <h1>ABOUT ME</h1>
-                <p class="px-2">Highly motivated graduate from a software development boot camp excited to start my new career in the technology field. <br><br> With 4 years of accounting experience, i'm able to appreciate the little things and strive for accuracy. </p>    
+            <div id="para" class="offset-md-2 offset-lg-0 col-md-6 my-md-4 p-3">
+                <h1 class="text-center">ABOUT ME</h1>
+                <p class="px-2">Highly motivated graduate from a software development boot camp excited to start my new career in the technology field. <br><br> With 4 years of accounting experience, i'm able to appreciate the little things and strive for accuracy. </p>
             </div>
         </div>
         <hr>
-          <div class="row text-center bg-white rounded">
-            <div class="my-4 ml-3 row px-4">
-               <div class="square">JavaScript</div>
-               <div class="square">HTML</div>
-               <div class="square">CSS</div>
-               <div class="square">BootStrap</div>
-               <div class="square">Vue.JS</div>
-               <div class="square">JQuery</div>
-               <div class="square">Microsoft Office</div>
-               <div class="square">SQL</div>
-               <div class="square">Responsive Design</div>
-               <div class="square">Github</div>
-               <div class="square">APIs</div>
+        <div class="row bg-white rounded">
+            <div class="col-sm-12 col-md-6 my-4 text-center">
+                <h3>TECHNICAL SKILLS</h3>
+                <ul class="p-0">
+                    <li>JavaScript</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>BootStrap</li>
+                    <li>Vue.JS</li>
+                    <li>JQuery</li>
+                    <li>SQL</li>
+                    <li>Github</li>
+                    <li>APIs</li>
+                    <li>Responsive Design</li>
+                    <li>Microsoft Office</li>
+               </ul>
+            </div>
+            <div class="col-sm-12 col-md-6 my-4 text-center">
+                <h3>PERSONAL SKILLS</h3>
+                <ul class="p-0">
+                    <li>Problem Solver</li>
+                    <li>Attention to Detail</li>
+                    <li>Analytical Thinking</li>
+                    <li>Reliable</li>
+                    <li>Organized</li>
+                    <li>Communication</li>
+                    <li>Fast Learner</li>
+                    <li>Team Player</li>
+                </ul>
             </div>
         </div>
         </section>`

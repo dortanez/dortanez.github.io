@@ -4,10 +4,10 @@ body {
 }
 /*NAV BAR****************************************/
 .name-logo {
-	font-family: 'Abel', sans-serif;
 	font-size: 2em;
 	font-weight: 800;
 	color: #3FA43A;
+	text-transform: uppercase;
 }
 
 
@@ -44,16 +44,17 @@ body {
 	font-weight: 800;
 }
 
-#about-me .square {
-	border: 2px solid #3FA43A;
+#about-me #para {
+	background-color: #FAFAFA;
+}
+
+#about-me h3 {
 	font-weight: bold;
-	border-radius: 50%;
-	height: 200px;
-	width: 200px;
-	line-height: 100px;
-	float: center;
-	margin: 2%;
-	font-size: 1.5em;
+}
+
+#about-me li {
+	list-style: none;
+	font-weight: bold;
 }
 
 
