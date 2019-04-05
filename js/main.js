@@ -4,9 +4,9 @@ const about = {
             <div class="col-md-4 offset-lg-1 my-4 text-center">
                 <img src="img/Danisa.png">
             </div>
-            <div id="para" class="offset-md-2 offset-lg-0 col-md-6 my-md-4 p-3">
+            <div id="para" class="offset-md-2 offset-lg-0 col-md-6 m-4 p-3">
                 <h1 class="text-center">ABOUT ME</h1>
-                <p class="px-2">Highly motivated graduate from a software development boot camp excited to start my new career in the technology field. <br><br> With 4 years of accounting experience, i'm able to appreciate the little things and strive for accuracy. </p>
+                <p class="px-2 ">Highly motivated graduate from a software development boot camp excited to start my new career in the technology field. <br><br> With 4 years of accounting experience, i'm able to appreciate the little things and strive for accuracy. </p>
             </div>
         </div>
         <hr>
@@ -130,9 +130,8 @@ const contact = {
                         <p>415-652-0310</p>
                     </div>
                     <div class="contacts">
-                        <h5>ADDRESS</h5>
-                        <p>34809 Starling Drive<br>
-                        Union City, CA 94587</p>
+                        <h5>LOCATION</h5>
+                        <p>San Francisco Bay Area, CA</p>
                     </div>
                     <div>
                         <a href="https://www.linkedin.com/in/danisa-ortanez-27627963/" target="_blank"><i class="fab fa-linkedin"></i></a>
