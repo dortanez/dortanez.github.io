@@ -55,7 +55,7 @@ const projects = {
                         <img src="img/book.png" class="card-img-top" alt="bookPic">
                         <div class="card-body">
                             <h5 class="card-title">Book Finder</h5>
-                            <a class="btn btn-outline" href="projects/clockApp/clock.html" target="_blank">See More</a>
+                            <a class="btn btn-outline" href="https://dortanez.github.io/clockApp/" target="_blank">See More</a>
                         </div>
                     </div>
                 </div>
