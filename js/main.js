@@ -145,6 +145,10 @@ const contact = {
 
 const router = new VueRouter({
 	routes: [
+        {
+            path: "/",
+            component: about
+        },
 		{
 			path: "/about",
 			component: about
