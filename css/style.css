@@ -461,21 +461,39 @@ header{
 	margin-top:-62px !important;
 }
 
-.bntDownload{
-	font-size:16px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight:700;
-	background:#474d5d;
-	padding:16px 22px;
+.aboutme ul{
+	margin:0 auto;
+	text-align:center;
+	list-style-type:none;
+}
+.aboutme ul li{
 	display:inline-block;
+	text-align:center;
+	background:#ffffff;
+	color:#00bdbd;
+	line-height:42px;
+	margin:0 6px;
+	width:42px !important;
+	height:42px !important;
+	
+	-webkit-border-radius: 50%;
+    border-radius: 50%;
 }
-.bntDownload:hover{
-	background:#373d4c;
-	color:#CCCCCC;
-	text-decoration:none;
+.aboutme ul li:hover{
+	background:#0a9f9f ;
+}
+.aboutme ul li:hover a{
+	color:#fff;
 }
 
-
+.aboutme ul li a{
+	color:#00bdbd;
+	width:42px !important;
+	height:42px !important;
+}
+.aboutme ul li a i{
+	line-height:42px !important;
+}
 
 /*----------------------------------------------------
  7.	Technical Skills Style
@@ -976,21 +994,6 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 .topCon{
 	padding-bottom:0px !important;
 }
-.mapArea{
-	background:url(../images/map-bro.png) repeat-x 0 0;
-	padding-top:4px;
-	height:400px;
-	overflow:hidden;
-	width:100%;
-	margin:0;
-}
-.mapArea iframe{
-	width:100%;
-	height:396px;
-	padding-bottom: 4px;
-	background:url(../images/map-bro.png) repeat-x 0 100%;
-}
-
 
 .contactDetails{
 	background:#474d5d;
@@ -1096,39 +1099,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 	padding:40px 0;
 }
 
-.footer ul{
-	margin:0 auto;
-	text-align:center;
-	list-style-type:none;
-}
-.footer ul li{
-	display:inline-block;
-	text-align:center;
-	background:#ffffff;
-	color:#00bdbd;
-	line-height:42px;
-	margin:0 6px;
-	width:42px !important;
-	height:42px !important;
-	
-	-webkit-border-radius: 50%;
-    border-radius: 50%;
-}
-.footer ul li:hover{
-	background:#0a9f9f ;
-}
-.footer ul li:hover	a{
-	color:#fff;
-}
 
-.footer ul li a{
-	color:#00bdbd;
-	width:42px !important;
-	height:42px !important;
-}
-.footer ul li a i{
-	line-height:42px !important;
-}
 
 
 
@@ -1311,10 +1282,6 @@ ul.portfolioContainer li:hover span.hoverBox .linKed{
 		width:100%;
 	}
 	
-	.bntDownload{
-		font-size: 13px;
-		padding: 16px 14px;
-	}
 	
 	.conForm textarea{
 		margin-bottom:20px;
